@@ -5,6 +5,6 @@ Pod::Spec.new do |s|
   s.summary  = "An Analytics utility just for testing"
   s.homepage = 'http://NSDev.io'
   s.author   = { 'Eric Pena' => 'penaeric@gmail.com' }
-  s.source   = { :git => 'https://github.com/penaeric/analytics.git', :commit => '0f3776a47b17bd4f6cbee0ad02c9450869d26c42' }
-  s.source_files = '*.{h,m}'
+  s.source   = { :git => 'https://github.com/penaeric/Analytics.git', :commit => '5f188886be31065d7b3d543ac593d70908f85ab0' }
+  s.source_files = 'Analytics/*.{h,m}'
 end
