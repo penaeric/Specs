@@ -7,4 +7,5 @@ Pod::Spec.new do |s|
   s.author   = { 'Eric Pena' => 'penaeric@gmail.com' }
   s.source   = { :git => 'https://github.com/penaeric/Analytics.git', :commit => 'de4ef82e2c4ec17ec22c5553fcf13d35af9939d4' }
   s.source_files = 'Analytics/Classes/**/*.{h,m}'
+  s.public_header_files = 'Analytics/Classes/**/*.h'
 end
